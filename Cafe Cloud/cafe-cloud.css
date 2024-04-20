@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap');
+:root{
+    --cc-main:#ff5e15;
+    --fnt-std:"Oswald",san-seriff;
+    /* #ff5e15 */
+}
+
+.bg-std{
+    background-color: var(--cc-main);
+}
+.text-std{
+    color: var(--cc-main);
+}
+
+.f-std{
+    font-family: var(--fnt-std);
+}
+.cc-navbar .nav-link{
+    padding: 20px 40px;
+    letter-spacing: 1px;
+}
+.cc-navbar a{
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+.cc-navbar .nav-link a{
+    font-weight: 600px;
+}
+.cc-navbar .nav-item{
+    padding: 15px 10px;
+}
+.cc-carousel .carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.cc-carousel .carousel-indicators div{
+    height: 7px;
+    width: 20px;
+    opacity: 1;
+}
+.cc-carousel .carousel-indicators .active{
+background-color: var(--cc-main);
+}
+
+.cc-quote-main p{
+    font-size: 24px;
+    color: aliceblue;
+}
+.cc-quote-main p span{
+    font-weight: bold;
+}
+
+.cc-form-control{
+    width: 100%;
+    margin-top: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    outline: none;
+    color: aliceblue;
+    padding: 8px;
+    font-family: var(--fnt-std);
+}
+.cc-btn{
+    width: 100%;
+    font-family: var(--fnt-std);
+    background-color: var(--cc-main);
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 2px;
+}
+.cc-modal .modal-footer, .cc-modal .modal-header{
+    border: none;
+}
+.cc-modal .btn-close{
+    color: var(--cc-main);
+}
+.cc-close{
+    color: var(--cc-main);
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+}
+.text-lg{
+    font-size:28px;
+}
+.text-lg span{
+    font-weight: bold;
+}
+.cc-team-img img{
+    transition: .5s;
+}
+.cc-team-img:hover img{
+    transform: scale(1.2,1.2);
+}
+.cc-team-img{
+    position: relative;
+    overflow: hidden;
+}
+.cc-team-contact {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.cc-team-contact i{
+    font-size: 30px;
+    color: var(--cc-main);
+}
+.cc-carousel{
+    margin-top: 110px;
+}
+.footer{
+    padding: 50px;
+    background-color:black;
+    color: aliceblue;
+    font-size: 15px;
+}
+.footer .footer-head{
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer .footer-head span{
+    border-bottom:#ff5e15 4px;
+}
